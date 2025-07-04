@@ -33,6 +33,6 @@ ENV PATH="${ANDROID_HOME}/platform-tools:${PATH}"
 
 RUN yes | sdkmanager --licenses && sdkmanager --update
 
-RUN sdkmanager "platforms;android-34" "build-tools;34.0.0" "cmake;3.22.1" "ndk;25.1.8937393"
+RUN sdkmanager "platforms;android-35" "build-tools;34.0.0" "cmake;3.22.1" "ndk;25.1.8937393"
 
 CMD ["/bin/bash"]
